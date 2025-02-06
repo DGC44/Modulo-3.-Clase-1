@@ -11,7 +11,7 @@ console.log(typeof true);
 console.log(typeof FALSE);
 //undefined (boolean must be lower case)
 console.log(typeof null);
-//null
+//null-object
 console.log(typeof 'true');
 //string
 console.log(typeof 0);
