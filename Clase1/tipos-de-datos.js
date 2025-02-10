@@ -22,3 +22,5 @@ console.log(typeof 55);
 //number
 console.log(typeof -666);
 //number
+console.log(typeof NaN);
+//number
