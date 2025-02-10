@@ -30,3 +30,22 @@ if (a < b) {
 } else { // Si no es ninguna de las dos anteriores
     console.log("a es mayor que b")
 }
+
+
+// Ejercicio
+let x = 6
+let y = 3
+
+if (x - y > 3){
+    if(y - x == 2) {
+        console.log("RES B")
+    } else {
+        let c = y * xa
+        if (c > 15) {
+            console.log("RES A")
+        }
+    }
+    console.log("RES C")
+}
+
+// El programa no lazanara nada porque desde x - y > 3 no se cumple
