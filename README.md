@@ -1,7 +1,8 @@
-# Clase 1
-## Tipos de Datos
+# MODULO 3. JAVASCRIPT DESDE CERO
+## Importancia en la actualidad
 >
-> En esta clase, aprendimos sobre los tipos de datos que JavaScript trabaja.
-> Pueden ser palabras, números, estados verdaderos o falsos, y mucho más.
-> Estan los *DATOS PRIMITIVOS* y de tipo especial como Null y Undefined. 
-> JavaScript nos ofrece diferentes formas de manejar estos datos, y entenderlos es clave para escribir un código eficiente y libre de errores.
+> JavaScript es un lenguaje de programación fundamental para el desarrollo web moderno.
+> Es importante saberlo porque permite crear páginas web interactivas, aplicaciones web, juegos, y más
+> Se puede hacer casi cualquier cosa con JavaScript.
+> Se puede empezar con pequeñas cosas como carruseles, galerías de imágenes, diseños fluctuantes, y respuestas a las pulsaciones de botones.
+> Con más experiencia, se es capaz de crear juegos, animaciones 2D y gráficos 3D, aplicaciones integradas basadas en bases de datos ¡y mucho más!
