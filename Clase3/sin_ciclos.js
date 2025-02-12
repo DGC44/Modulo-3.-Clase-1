@@ -66,3 +66,24 @@ if (i < 10) {
 
 
 console.log(b)
+
+
+// Ciclo for
+
+// let c=0
+// let i=0
+
+// while (i < 10) {
+//    c = c + 5
+//    i = i + 1
+//}
+
+for (let i = 0; i < 10; i = i + 1) { // ese i = i +1 es igual a i++
+    c = c + 5
+}
+
+c=0
+for (let i = 0; i < 10; i++) {
+    c = c + 5
+}
+console.log(c)
