@@ -105,24 +105,24 @@ function formal(nombre) {
 }
 
 function informal(nombre) {
-    return "Compa " + nombre
+    return "Amigx " + nombre
 }
 
 result = formal("Luis")
 console.log(result)
 
-result = saludar_con_estilo("Mackaber", informal)
+result = saludar_con_estilo("Diana", informal)
 console.log(result)
 
 
 // Usar funciones anonimas
-let mi_nombre = "Mackaber"
+let mi_nombre = "Diana"
 result = saludar_con_estilo(mi_nombre, formal)
 console.log(result)
 
-
+// Funciones anonimas porque no tienen nombre
 result = saludar_con_estilo(mi_nombre, function(nombre) {
-    return "Hace mucho que no te veía, como te ha ido? " + nombre
+    return "Hace mucho que no te veía, te echaba de menos " + nombre
 })
 console.log(result)
 
@@ -131,13 +131,13 @@ console.log(result)
 let mi_var = 5
 
 /*function mi_func() {
-
+Una funcion tambien es una variable
 
 }*/
 
 /*
 let mi_func = function() {
-
+ Una variable con una funcion
 }
 
 let mi_funct = () => {
