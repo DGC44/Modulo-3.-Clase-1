@@ -10,11 +10,15 @@ Serie de pasos que podemos repetir.
 Estructura de una función
 - Sintaxis
 Todas la funciones tienen un return, si no lo tienen, lanza un "undefined"
+
 Cómo llamar a una función
 - Parámetros y argumentos
+
 Valores de retorno
 - ¿y si no especifico un return?
+
 Alcance de variables -Variables locales y globales
 - Scope global y local
+
 Funciones anónimas (un vistazo)
 Funciones de flecha (un vistazo)
