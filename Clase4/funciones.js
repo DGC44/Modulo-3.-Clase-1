@@ -139,11 +139,12 @@ Una funcion tambien es una variable
 let mi_func = function() {
  Una variable con una funcion
 }
-
+//Equivalentes la de arriba y la de abajo
 let mi_funct = () => {
     return 
 }
 
+Puede hacerse sin parentesis
 let mi_funct = (a,b) => a*b
 let mi_funct = a => a*a
 */
@@ -158,11 +159,10 @@ let resta = (a,b) => {
     return a - b
 }
 
-// let multiplicar = (a,b) => a*b
+let multiplicar = (a,b) => a*b
 
 let al_cuadrado = a => a*a
 
-let operarar = (op, val_a, val_b) => op(val_a, val_b)
-
-
-operarar((a,b) => a + b, 5, 10)
+let operar = (op, val_a, val_b) => op(val_a, val_b)
+// Colocas variables, lo que haran dentro de op y le das valor a esas variables
+operar((a,b) => a + b, 5, 10)
