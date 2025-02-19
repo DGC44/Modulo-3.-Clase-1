@@ -10,7 +10,7 @@ lista_de_personas = [
     },
     {
         "id": 2,
-        "nombre": "Luis",
+        "nombre": "Miguel",
         "apellido": "Basulto",
         "edad": 25,
         "profesion": "Finanzas y Economia"
