@@ -22,7 +22,7 @@ let persona = {
 }
 
 propiedades = Object.keys(persona) // ["nombre", "apellido", "edad"]
-
+// Con keys extraes propiedades de un objeto
 for (let i = 0; i < propiedades.length; i++) {
     console.log(persona[propiedades[i]])
 }
