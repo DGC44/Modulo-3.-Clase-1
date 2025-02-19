@@ -53,11 +53,13 @@ persona.saludar = function() { //Sintaxis o persona.saludar =
     console.log("Hola, me llamo " + persona.nombre)
 }
 
+
 /* let */ objeto = {
     metodo: (parametros) => { /*function (parametros) { */
         // codigo        
     }
 }
+
 
 // Ejemplo
 
@@ -99,4 +101,5 @@ objeto.metodo()
 }
 
 let result = persona.nombre_en_mayuculas()
-persona.nombre_en_mayuculas()
+persona.nombre_en_mayuculas() 
+
