@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f5;
+    background-color: #e4e4f3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,31 +41,36 @@ input, select, textarea, button {
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 button {
-    background-color: #ff5733;
+    background-color: #941ecb;
     color: white;
     font-weight: bold;
     cursor: pointer;
     margin-top: 15px;
 }
 button:hover {
-    background-color: #e04e2a;
+    background-color: #a32ae0b3;
 }
 .comment {
-    background: #fff;
-    padding: 10px;
+    background: #b50ae423;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
     position: relative;
+    word-wrap: break-word;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
-.comment strong {
+
+.comment strong {    /* Nombre en comentario */
     display: block;
     font-size: 1.1em;
-    color: #333;
+    color: #333333;
 }
 .comment p {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .comment .timestamp {
     font-size: 0.85em;
@@ -75,7 +80,7 @@ button:hover {
 .comment .delete {
     top: 5px;
     right: 10px;
-    background: red;
+    background:#941ecb;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -83,5 +88,5 @@ button:hover {
     border-radius: 3px;
 }
 .comment .delete:hover {
-    background: darkred;
+    background: rgb(95, 0, 139);
 }
