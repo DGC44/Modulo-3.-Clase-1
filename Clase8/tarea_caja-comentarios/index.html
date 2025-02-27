@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Comentarios</title>
+    <link rel="stylesheet" href="stylesforms.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h2>FORMULARIO</h2>
+            <form id="commentForm">
+                <label>Nombre:</label>
+                <input type="text" id="name" required>
+                
+                <label>Apellido:</label>
+                <input type="text" id="lastname" required>
+                
+                <label>Correo:</label>
+                <input type="email" id="email" required>
+                
+                <label>Edad:</label>
+                <input type="number" id="age" required>
+                
+                <label>Género:</label>
+                <select id="gender">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                
+                <label>Hobbies:</label>
+                <input type="text" id="hobbies" placeholder="Tus pasatiempos">
+                
+                <label>Nivel de escolaridad:</label>
+                <select id="education">
+                    <option value="Primaria">Primaria</option>
+                    <option value="Secundaria">Secundaria</option>
+                    <option value="Preparatoria">Preparatoria</option>
+                    <option value="Universidad">Universidad</option>
+                </select>
+                
+                <label>Comentario:</label>
+                <textarea id="comment" required placeholder="Escribe un poco sobre ti, tus habilidades, tus intereses..."></textarea>
+                
+                <button type="button" onclick="addComment()">Agregar Comentario</button>
+            </form>
+        </div>
+        
+        <div class="comment-section" id="comments">
+            <h2>CONOCIENDONOS</h2>
+        </div>
+    </div>
+
+    <script src="scriptform.js"></script>
+</body>
+</html>
+

@@ -2,20 +2,28 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f5;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    margin: 80px;
+    padding: 20px;
+    box-sizing: border-box;
 }
-.container {
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    max-width: 900px;
+}
+.container, .comment-section {
     background: #fff;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    flex: 1;
+    min-width: 300px;
 }
-
 h2 {
     text-align: center;
     color: #333;
@@ -31,6 +39,7 @@ input, select, textarea, button {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 button {
     background-color: #ff5733;
@@ -42,10 +51,6 @@ button {
 button:hover {
     background-color: #e04e2a;
 }
-.comment-section {
-    margin-top: 20px;
-    width: 100%;
-}
 .comment {
     background: #fff;
     padding: 10px;
@@ -54,8 +59,20 @@ button:hover {
     margin-top: 10px;
     position: relative;
 }
+.comment strong {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+}
+.comment p {
+    margin: 5px 0;
+}
+.comment .timestamp {
+    font-size: 0.85em;
+    color: gray;
+    display: block;
+}
 .comment .delete {
-    position: absolute;
     top: 5px;
     right: 10px;
     background: red;

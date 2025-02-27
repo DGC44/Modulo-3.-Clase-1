@@ -15,8 +15,12 @@ function addComment() {
     const now = new Date();
     const timestamp = now.toLocaleString();
     
-    commentDiv.innerHTML = `<strong>${name} ${lastname}</strong> - ${timestamp}<br>${comment} 
-        <button class="delete" onclick="this.parentElement.remove()">X</button>`;
+    commentDiv.innerHTML = `
+        <strong>${name} ${lastname}</strong>
+        <p>${comment}</p>
+        <span class="timestamp">${timestamp}</span>
+        <button class="delete" onclick="this.parentElement.remove()">Eliminar</button>
+    `;
     
     commentSection.appendChild(commentDiv);
     
