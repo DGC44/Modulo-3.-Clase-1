@@ -23,7 +23,14 @@
             <label><input type="checkbox" id="symbols" checked> Incluir símbolos</label>
         </div>
         
-        <div class="strength" id="strength">Seguridad: Media</div>
+        <div class="strength-box">
+            <span>Seguridad:</span>
+            <div class="strength-bar-container">
+                <div class="strength-bar" id="strength">
+                    <div class="strength-indicator"></div>
+                </div>
+            </div>
+        </div>
         <button id="generate">Generar Contraseña</button>
     </div>
     <script src="script.js"></script>
